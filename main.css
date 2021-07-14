@@ -1,0 +1,105 @@
+:root{
+--green:#fff;
+--white:#ffffff;
+--black:#000000;
+}
+*{
+  color:var(--fontColor);
+  font-family:helvetica;
+}
+
+body{
+    background:
+    linear-gradient(45deg, rgb(255,182,193),transparent)
+
+
+    
+}
+
+body{
+    font-family: monospace;
+    margin-bottom: -25px;
+    text-align:center;
+    padding: 50px;
+    font-weight:bold;
+}
+
+h1{
+    color:#000;
+    font-size:30px;
+    font-family:sans-serif;
+}
+
+
+h2{
+    color:#363636;
+    font-size:30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow',
+    'Arial','sans-serif';
+    }
+
+h3{
+    color:#363636;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow',
+    'Arial','sans-serif';
+    }
+
+    h4{
+        color:#363636;
+        font-size: 35px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow',
+        'Arial','sans-serif';
+        }
+
+
+
+    p{
+         color:#363636;
+        font-size: 15px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+
+
+img{
+    border-color: rgb(107,9,187);
+    border-width: 30px;
+    border-style: solid;
+    border-radius: 100%;
+    width: 300px;
+}
+
+
+i{
+color:rgb(238, 22, 238);
+font-size: 75px;
+}
+
+
+/*.light-theme{
+    --bg:var(--green);
+    --fontColor:var(--black);
+}
+
+.dark-theme{
+    --bg:var(--black);
+    --fontColor:var(--green);
+}
+
+.btn{
+    color:var(--btnFontColor);
+    background-color:var(--btnBg);
+}*/
+
+.btn{
+    position:absolute;
+    top: 76px;
+    left: 1000px;
+    height: 65px;
+    width:65px;
+    border-radius:100%;
+    border:none;
+    color:var(--btnBg);
+}
+.btn:focus{ outline-style: none;}
