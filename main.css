@@ -118,3 +118,8 @@ align-content: center;
     color:var(--btnBg);
 }
 .btn:focus{ outline-style: none;}
+
+button{
+    color:rgb(231, 40, 231);
+    
+}
