@@ -11,9 +11,7 @@
 body{
     background:
     linear-gradient(45deg, rgb(252, 158, 172),transparent)
-    
-
-    
+     
 }
 
 body{
@@ -68,23 +66,23 @@ h3{
 
 
 img{
-    border-color: #f4dcce;
-    border-width: 65px;
+    border-color: #f5c5c5;
+    border-width: 45px;
     border-style: solid;
     border-radius: 100%;
-    width: 200px;
+    width: 230px;
 }
 
 .circle-icons {
  padding: 10px; /* espaçamento */
-font-size: 18px; /* tamanho do icone */
-width: 18px; /* tamanho do fundo */
+font-size: 20px; /* tamanho do icone */
+width: 20px; /* tamanho do fundo */
 text-align: center;
 text-decoration: none;
 margin: 5px 2px; /* espaçamento entre eles */
  border-radius: 50%;  
 background: #f0e9e9; /* cor do fundo */
-color: #363636; /*cor do icone */
+color: rgb(231, 40, 231); /*cor do icone */
   
   }
   
@@ -238,6 +236,35 @@ form {
     }
   }
   
+  .input-radio,
+  .input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+  }
+  
+  .input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+  }
+
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: var(--color-pink);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+
+  
+
   .form-group {
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
@@ -262,30 +289,8 @@ form {
     box-shadow: 0 0 0 0.2rem rgba(rgb(255,182,193);
   }
   
- /* .input-radio,
-  .input-checkbox {
-    display: inline-block;
-    margin-right: 0.625rem;
-    min-height: 1.25rem;
-    min-width: 1.25rem;
-  }
   
-  .input-textarea {
-    min-height: 120px;
-    width: 100%;
-    padding: 0.625rem;
-    resize: vertical;
-  }
   
-  .submit-button {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    background: var(--color-green);
-    color: inherit;
-    border-radius: 2px;
-    cursor: pointer;
-  }*/
   
 
   
