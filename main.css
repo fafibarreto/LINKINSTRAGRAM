@@ -10,7 +10,7 @@
 
 body{
     background:
-    linear-gradient(45deg, rgb(252, 158, 172),transparent)
+    linear-gradient(45deg, rgb(252, 158, 172),transparent);
      
 }
 
@@ -52,10 +52,12 @@ h3{
 
     
     p{
-         color:#000000;
+       text-align: center;
+       color:#000000;
         font-size: 15px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif
+        
+      
     }
          
         #box{
