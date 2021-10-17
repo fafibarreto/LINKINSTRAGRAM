@@ -79,7 +79,7 @@ img{
  padding: 10px; /* espaçamento */
 font-size: 20px; /* tamanho do icone */
 width: 20px; /* tamanho do fundo */
-text-align: center;
+text-align:center;
 text-decoration: none;
 margin: 5px 2px; /* espaçamento entre eles */
  border-radius: 50%;  
@@ -177,6 +177,7 @@ label {
   @media (min-width: 540px) {
     .container {
       max-width: 578px;
+      
     }
   }
   
@@ -223,19 +224,18 @@ label {
       max-width: 720px;
     }
 
-    /* media query for small screens, such as mobile devices */
+    /* media query for small screens, such as mobile devices 
     @media screen and (max-width: 767px) {
       .tablet-up {
         display: none !important;
-      }
+      } */
     }
 
-    /* media query for tablet and larger devices*/
+    /* media query for tablet and larger devices
     @media screen and (min-width: 768px) {
       .mobile-only {
         display: none !important;
-      }
-    }
+      }*/
 
 
 /* form */
