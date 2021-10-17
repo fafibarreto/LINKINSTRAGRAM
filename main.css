@@ -174,16 +174,16 @@ label {
     margin: 3.125rem auto 0 auto;
   }
   
-  @media (min-width: 576px) {
+  @media (min-width: 540px) {
     .container {
-      max-width: 540px;
+      max-width: 578px;
     }
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: 720px) {
     .container {
-      max-width: 720px;
-    }
+      max-width: 768px;
+    } 
   }
   
   label{
@@ -221,6 +221,20 @@ label {
   @media (min-width: 768px) {
     .container {
       max-width: 720px;
+    }
+
+    /* media query for small screens, such as mobile devices */
+    @media screen and (max-width: 767px) {
+      .tablet-up {
+        display: none !important;
+      }
+    }
+
+    /* media query for tablet and larger devices*/
+    @media screen and (min-width: 768px) {
+      .mobile-only {
+        display: none !important;
+      }
     }
 
 
