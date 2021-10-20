@@ -1,4 +1,4 @@
-:root{
+/*:root{
 --green:#fff;
 --white:#ffffff;
 --black:#000000;
@@ -6,7 +6,7 @@
 *{
   color:var(--fontColor);
   font-family:helvetica;
-}
+}*/
 
 body{
     background:
@@ -278,8 +278,6 @@ form {
     cursor: pointer;
   }
 
-
-  
 
   .form-group {
     margin: 0 auto 1.25rem auto;
